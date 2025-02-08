@@ -3,3 +3,7 @@ build
 bin
 # IDE
 .vscode
+
+# git 使用
+# git commit -m "message" 看 git add . 的变化
+# git push origin main 看 commit 的变化 
