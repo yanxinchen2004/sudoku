@@ -42,9 +42,9 @@ struct Normal : KeyMap
     }
 };
 
-struct VIM : KeyMap
+struct Vim : KeyMap
 {
-    VIM()
+    Vim()
     {
         UP = 0x6B;
         LEFT = 0x68;
@@ -69,7 +69,7 @@ class CPointSort
     public:
         bool operator()(const point_t &lhs, const point_t &rhs) const
         {
-            if((lhs.x == rhs.x) && (lhs.y == lhs.y))
+            if((lhs.x == rhs.x) && (lhs.y == rhs.y))
                 return false;
             else    
                 return true;

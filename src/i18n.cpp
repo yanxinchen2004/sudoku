@@ -52,6 +52,7 @@ void I18n::SetLanguage(Language language)
             break;
         case Language::CHINESE:
             dict_ = &chinese;
+            break;
         case Language::MAX:
         default:
             // 触发程序中止
